@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3681B19B2AA9C15300F89F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B19A2AA9C15300F89F82 /* AppDelegate.swift */; };
+		3681B19D2AA9C15300F89F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B19C2AA9C15300F89F82 /* SceneDelegate.swift */; };
+		3681B1A22AA9C15300F89F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3681B1A02AA9C15300F89F82 /* Main.storyboard */; };
+		3681B1A42AA9C15500F89F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3681B1A32AA9C15500F89F82 /* Assets.xcassets */; };
+		3681B1A72AA9C15500F89F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3681B1A52AA9C15500F89F82 /* LaunchScreen.storyboard */; };
+		3681B1B22AA9C15600F89F82 /* myJornalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B1B12AA9C15600F89F82 /* myJornalAppTests.swift */; };
+		3681B1BC2AA9C15600F89F82 /* myJornalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B1BB2AA9C15600F89F82 /* myJornalAppUITests.swift */; };
+		3681B1BE2AA9C15600F89F82 /* myJornalAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B1BD2AA9C15600F89F82 /* myJornalAppUITestsLaunchTests.swift */; };
+		3681B1CB2AA9C1CF00F89F82 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B1CA2AA9C1CF00F89F82 /* TableViewController.swift */; };
+		3681B1D12AA9D1A600F89F82 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B1D02AA9D1A600F89F82 /* JournalEntry.swift */; };
+		3681B1D32AA9D37100F89F82 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B1D22AA9D37100F89F82 /* Journal.swift */; };
+		3681B1D52AAA02FE00F89F82 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B1D42AAA02FE00F89F82 /* AddEntryViewController.swift */; };
+		3681B21B2AAF078A00F89F82 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3681B21A2AAF078A00F89F82 /* EntryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3681B1AE2AA9C15600F89F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3681B18F2AA9C15300F89F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3681B1962AA9C15300F89F82;
+			remoteInfo = myJornalApp;
+		};
+		3681B1B82AA9C15600F89F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3681B18F2AA9C15300F89F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3681B1962AA9C15300F89F82;
+			remoteInfo = myJornalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3681B1972AA9C15300F89F82 /* myJornalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myJornalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3681B19A2AA9C15300F89F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3681B19C2AA9C15300F89F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3681B1A12AA9C15300F89F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3681B1A32AA9C15500F89F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3681B1A62AA9C15500F89F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3681B1A82AA9C15500F89F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3681B1AD2AA9C15600F89F82 /* myJornalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myJornalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3681B1B12AA9C15600F89F82 /* myJornalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myJornalAppTests.swift; sourceTree = "<group>"; };
+		3681B1B72AA9C15600F89F82 /* myJornalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myJornalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3681B1BB2AA9C15600F89F82 /* myJornalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myJornalAppUITests.swift; sourceTree = "<group>"; };
+		3681B1BD2AA9C15600F89F82 /* myJornalAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myJornalAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3681B1CA2AA9C1CF00F89F82 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3681B1D02AA9D1A600F89F82 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		3681B1D22AA9D37100F89F82 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		3681B1D42AAA02FE00F89F82 /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
+		3681B21A2AAF078A00F89F82 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3681B1942AA9C15300F89F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3681B1AA2AA9C15600F89F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3681B1B42AA9C15600F89F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3681B18E2AA9C15300F89F82 = {
+			isa = PBXGroup;
+			children = (
+				3681B1992AA9C15300F89F82 /* myJornalApp */,
+				3681B1B02AA9C15600F89F82 /* myJornalAppTests */,
+				3681B1BA2AA9C15600F89F82 /* myJornalAppUITests */,
+				3681B1982AA9C15300F89F82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3681B1982AA9C15300F89F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3681B1972AA9C15300F89F82 /* myJornalApp.app */,
+				3681B1AD2AA9C15600F89F82 /* myJornalAppTests.xctest */,
+				3681B1B72AA9C15600F89F82 /* myJornalAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3681B1992AA9C15300F89F82 /* myJornalApp */ = {
+			isa = PBXGroup;
+			children = (
+				3681B1CD2AA9D0D300F89F82 /* Controllers */,
+				3681B1CC2AA9D0AE00F89F82 /* Model */,
+				3681B19A2AA9C15300F89F82 /* AppDelegate.swift */,
+				3681B19C2AA9C15300F89F82 /* SceneDelegate.swift */,
+				3681B1A02AA9C15300F89F82 /* Main.storyboard */,
+				3681B1A32AA9C15500F89F82 /* Assets.xcassets */,
+				3681B1A52AA9C15500F89F82 /* LaunchScreen.storyboard */,
+				3681B1A82AA9C15500F89F82 /* Info.plist */,
+			);
+			path = myJornalApp;
+			sourceTree = "<group>";
+		};
+		3681B1B02AA9C15600F89F82 /* myJornalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3681B1B12AA9C15600F89F82 /* myJornalAppTests.swift */,
+			);
+			path = myJornalAppTests;
+			sourceTree = "<group>";
+		};
+		3681B1BA2AA9C15600F89F82 /* myJornalAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3681B1BB2AA9C15600F89F82 /* myJornalAppUITests.swift */,
+				3681B1BD2AA9C15600F89F82 /* myJornalAppUITestsLaunchTests.swift */,
+			);
+			path = myJornalAppUITests;
+			sourceTree = "<group>";
+		};
+		3681B1CC2AA9D0AE00F89F82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3681B1D02AA9D1A600F89F82 /* JournalEntry.swift */,
+				3681B1D22AA9D37100F89F82 /* Journal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3681B1CD2AA9D0D300F89F82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3681B1CA2AA9C1CF00F89F82 /* TableViewController.swift */,
+				3681B1D42AAA02FE00F89F82 /* AddEntryViewController.swift */,
+				3681B21A2AAF078A00F89F82 /* EntryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3681B1962AA9C15300F89F82 /* myJornalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3681B1C12AA9C15600F89F82 /* Build configuration list for PBXNativeTarget "myJornalApp" */;
+			buildPhases = (
+				3681B1932AA9C15300F89F82 /* Sources */,
+				3681B1942AA9C15300F89F82 /* Frameworks */,
+				3681B1952AA9C15300F89F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myJornalApp;
+			productName = myJornalApp;
+			productReference = 3681B1972AA9C15300F89F82 /* myJornalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3681B1AC2AA9C15600F89F82 /* myJornalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3681B1C42AA9C15600F89F82 /* Build configuration list for PBXNativeTarget "myJornalAppTests" */;
+			buildPhases = (
+				3681B1A92AA9C15600F89F82 /* Sources */,
+				3681B1AA2AA9C15600F89F82 /* Frameworks */,
+				3681B1AB2AA9C15600F89F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3681B1AF2AA9C15600F89F82 /* PBXTargetDependency */,
+			);
+			name = myJornalAppTests;
+			productName = myJornalAppTests;
+			productReference = 3681B1AD2AA9C15600F89F82 /* myJornalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3681B1B62AA9C15600F89F82 /* myJornalAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3681B1C72AA9C15600F89F82 /* Build configuration list for PBXNativeTarget "myJornalAppUITests" */;
+			buildPhases = (
+				3681B1B32AA9C15600F89F82 /* Sources */,
+				3681B1B42AA9C15600F89F82 /* Frameworks */,
+				3681B1B52AA9C15600F89F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3681B1B92AA9C15600F89F82 /* PBXTargetDependency */,
+			);
+			name = myJornalAppUITests;
+			productName = myJornalAppUITests;
+			productReference = 3681B1B72AA9C15600F89F82 /* myJornalAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3681B18F2AA9C15300F89F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3681B1962AA9C15300F89F82 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3681B1AC2AA9C15600F89F82 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3681B1962AA9C15300F89F82;
+					};
+					3681B1B62AA9C15600F89F82 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3681B1962AA9C15300F89F82;
+					};
+				};
+			};
+			buildConfigurationList = 3681B1922AA9C15300F89F82 /* Build configuration list for PBXProject "myJornalApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3681B18E2AA9C15300F89F82;
+			productRefGroup = 3681B1982AA9C15300F89F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3681B1962AA9C15300F89F82 /* myJornalApp */,
+				3681B1AC2AA9C15600F89F82 /* myJornalAppTests */,
+				3681B1B62AA9C15600F89F82 /* myJornalAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3681B1952AA9C15300F89F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3681B1A72AA9C15500F89F82 /* LaunchScreen.storyboard in Resources */,
+				3681B1A42AA9C15500F89F82 /* Assets.xcassets in Resources */,
+				3681B1A22AA9C15300F89F82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3681B1AB2AA9C15600F89F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3681B1B52AA9C15600F89F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3681B1932AA9C15300F89F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3681B19B2AA9C15300F89F82 /* AppDelegate.swift in Sources */,
+				3681B1D32AA9D37100F89F82 /* Journal.swift in Sources */,
+				3681B1CB2AA9C1CF00F89F82 /* TableViewController.swift in Sources */,
+				3681B21B2AAF078A00F89F82 /* EntryViewController.swift in Sources */,
+				3681B1D52AAA02FE00F89F82 /* AddEntryViewController.swift in Sources */,
+				3681B1D12AA9D1A600F89F82 /* JournalEntry.swift in Sources */,
+				3681B19D2AA9C15300F89F82 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3681B1A92AA9C15600F89F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3681B1B22AA9C15600F89F82 /* myJornalAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3681B1B32AA9C15600F89F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3681B1BE2AA9C15600F89F82 /* myJornalAppUITestsLaunchTests.swift in Sources */,
+				3681B1BC2AA9C15600F89F82 /* myJornalAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3681B1AF2AA9C15600F89F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3681B1962AA9C15300F89F82 /* myJornalApp */;
+			targetProxy = 3681B1AE2AA9C15600F89F82 /* PBXContainerItemProxy */;
+		};
+		3681B1B92AA9C15600F89F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3681B1962AA9C15300F89F82 /* myJornalApp */;
+			targetProxy = 3681B1B82AA9C15600F89F82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3681B1A02AA9C15300F89F82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3681B1A12AA9C15300F89F82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3681B1A52AA9C15500F89F82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3681B1A62AA9C15500F89F82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3681B1BF2AA9C15600F89F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3681B1C02AA9C15600F89F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3681B1C22AA9C15600F89F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39T8DJGQPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myJornalApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanny.myJornalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3681B1C32AA9C15600F89F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39T8DJGQPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myJornalApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanny.myJornalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3681B1C52AA9C15600F89F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39T8DJGQPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanny.myJornalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myJornalApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myJornalApp";
+			};
+			name = Debug;
+		};
+		3681B1C62AA9C15600F89F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39T8DJGQPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanny.myJornalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myJornalApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myJornalApp";
+			};
+			name = Release;
+		};
+		3681B1C82AA9C15600F89F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39T8DJGQPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanny.myJornalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myJornalApp;
+			};
+			name = Debug;
+		};
+		3681B1C92AA9C15600F89F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39T8DJGQPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanny.myJornalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myJornalApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3681B1922AA9C15300F89F82 /* Build configuration list for PBXProject "myJornalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3681B1BF2AA9C15600F89F82 /* Debug */,
+				3681B1C02AA9C15600F89F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3681B1C12AA9C15600F89F82 /* Build configuration list for PBXNativeTarget "myJornalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3681B1C22AA9C15600F89F82 /* Debug */,
+				3681B1C32AA9C15600F89F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3681B1C42AA9C15600F89F82 /* Build configuration list for PBXNativeTarget "myJornalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3681B1C52AA9C15600F89F82 /* Debug */,
+				3681B1C62AA9C15600F89F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3681B1C72AA9C15600F89F82 /* Build configuration list for PBXNativeTarget "myJornalAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3681B1C82AA9C15600F89F82 /* Debug */,
+				3681B1C92AA9C15600F89F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3681B18F2AA9C15300F89F82 /* Project object */;
+}
